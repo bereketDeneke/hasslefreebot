@@ -1,4 +1,4 @@
-./public
-./tmp
-./__pycache__
-stderr.log
+./public/
+./tmp/
+./__pycache__/
+./stderr.log
