@@ -46,7 +46,7 @@ logging.basicConfig(
 TOKEN = "1768741179:AAFlewcNKW4syBeuD_moZzs1PCWEtERzJuI"
 # TOKEN = "1156856616:AAEloiBFiRuRuajF4yEVZyuj55zbpbB0AFg"
 #HOST     = '447d38be8ec5.ngrok.io ' # Same FQDN used when generating SSL Cert
-PORT     = 5000
+PORT     = 80
 
 updater = Updater(TOKEN)
 bot = telegram.Bot(TOKEN)
@@ -254,7 +254,7 @@ if __name__ == '__main__':
    # main()
     #setWebhook()
     print(f'Hi the machine is running...\n')
-    app.run(host='0.0.0.0',
+    app.run(host='https://hasslefreebot.herokuapp.com/',
             port=PORT,
              threaded=True,
             debug=True)
