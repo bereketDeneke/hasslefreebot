@@ -254,7 +254,4 @@ if __name__ == '__main__':
    # main()
     #setWebhook()
     print(f'Hi the machine is running...\n')
-    app.run(host='https://hasslefreebot.herokuapp.com/',
-            port=PORT,
-             threaded=True,
-            debug=True)
+    app.run()
