@@ -1,0 +1,4 @@
+./public
+./tmp
+./__pycache__
+stderr.log
