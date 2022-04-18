@@ -1,4 +1,3 @@
-./public/
-./tmp/
-./__pycache__/
+tmp/
+__pycache__/
 ./stderr.log
