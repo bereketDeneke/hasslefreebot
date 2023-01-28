@@ -1,8 +1,8 @@
-#Hassle Free Bot
-purpose: forwarding students assignment to a private group
+<h1><b>Hassle Free Bot</b></h1></br>
+purpose: forwarding students assignment to a private group</br>
 
-date-of-publish:04-07-2021 GC.
-Date-of-version-03-release:4/13/2021
-version: 03
-application: webhook system
+date-of-publish:04-07-2021 GC.</br>
+Date-of-version-03-release:4/13/2021</br>
+version: 03</br>
+application: webhook system</br>
 api: telegram
