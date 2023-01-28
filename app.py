@@ -23,8 +23,7 @@ from telegram import ParseMode as ParseMode
 from telegram import Update, Bot
 from telegram.ext import Updater,CommandHandler,MessageHandler,Filters ,CallbackContext
 
-#group_id = '-1001339839902'#for testing groupname - test123
-group_id = '-1001205004137'
+group_id = ''
 domain_name = ""
 
 emojies = [
@@ -35,17 +34,14 @@ emojies = [
 
 uname = "" #username
 gname = "" #gname stands for gllobal name
-URL = "https://senaysite.com/"
+URL = ""
 # URL = "https://senaysite.com/hasselfreebot"
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
 )
 
 # CONFIG
-#TOKEN    = '1755480466:AAGDhmBzcDUV1K9OICLQ4jv-sVB7rfF0x5o'# Test nobody-name of the bot
-TOKEN = "1768741179:AAFlewcNKW4syBeuD_moZzs1PCWEtERzJuI"
-# TOKEN = "1156856616:AAEloiBFiRuRuajF4yEVZyuj55zbpbB0AFg"
-#HOST     = '447d38be8ec5.ngrok.io ' # Same FQDN used when generating SSL Cert
+TOKEN = ""
 PORT = 80
 
 updater = Updater(TOKEN)
